@@ -1885,6 +1885,12 @@ export const extraRpcs = {
       },
     ],
   },
+  313: {
+    rpcs: ["https://node-testnet.ene.is"],
+  },
+  323: {
+    rpcs: ["https://node-mainnet.ene.is"],
+  },
 };
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
